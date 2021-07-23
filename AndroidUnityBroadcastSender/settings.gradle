@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "Alternative Grass"
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('..\\embedunityandroid\\androidBuild\\unityLibrary')
